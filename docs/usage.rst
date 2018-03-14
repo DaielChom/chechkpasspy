@@ -4,4 +4,8 @@ Usage
 
 To use CheckPassPy in a project::
 
-    import chackpasspy
+    >>> from chackpasspy.chackpasspy import checkio
+    >>> checkio("pass")
+    False
+    >>> checkio("sadAsq234$%")
+    True

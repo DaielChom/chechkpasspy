@@ -3,7 +3,7 @@
 """Main module."""
 
 def checkio(data):
-
+    """Check string input for password uses"""
     mini = False
     may = False
     num = False
