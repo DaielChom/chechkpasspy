@@ -16,7 +16,7 @@ CheckPassPy
 
 
 
-Verifica si el string que se le pasa a la funcion puede ser considerada como una contraseña segura.
+Verifica si el string que se le pasa a la función puede ser considerada como una contraseña segura.
 
 
 * Free software: MIT license
