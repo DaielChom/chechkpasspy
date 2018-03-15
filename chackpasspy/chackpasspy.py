@@ -2,6 +2,7 @@
 
 """Main module."""
 
+
 def checkio(data):
     """Check string input for password uses"""
     mini = False
@@ -9,7 +10,7 @@ def checkio(data):
     num = False
     res = False
 
-    if(len(data)>=10):
+    if(len(data) >= 10):
 
         for x in data:
 
