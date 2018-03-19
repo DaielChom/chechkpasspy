@@ -3,14 +3,18 @@
 """Console script for chackpasspy."""
 import sys
 import click
+from chackpasspy.chackpasspy import checkio
 
 
 @click.command()
-def main(args=None):
+@click.argument('passw', type=str)
+def main(passw):
     """Console script for chackpasspy."""
-    click.echo("Replace this message by putting your code into "
-               "chackpasspy.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    if(checkio(passw)):
+        click.echo("Contraseña Valida")
+    else:
+        click.echo("Contraseña no Valida")
+
     return 0
 
 
